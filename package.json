@@ -1,0 +1,11 @@
+{
+  "name": "@makeitrealcamp/db-mock",
+  "version": "1.0.0",
+  "description": "Simulates a database with one table that allows simple CRUD operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Germán Escobar",
+  "license": "MIT"
+}
