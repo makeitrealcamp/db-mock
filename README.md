@@ -8,11 +8,13 @@ Mocks in programming are used to simulate other parts of a system. In this case 
 
 ## Usage
 
-The first step is to install the library:
+First install the library:
 
 ```
-npm install @makeitrealcamp/db-mock
+npm install --save @makeitrealcamp/db-mock
 ```
+
+Then require and use it in your code. For example:
 
 ```js
 // import table from "@makeitrealcamp/db-mock"
@@ -84,3 +86,7 @@ For example, if a record was already inserted, we can delete it:
 ```js
 table.delete(1)
 ```
+
+## TODO
+
+We need to add some tests.
