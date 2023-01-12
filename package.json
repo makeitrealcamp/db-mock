@@ -4,8 +4,14 @@
   "description": "Simulates a database with one table that allows simple CRUD operations",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "link": "npm link @makeitrealcamp/db-mock",
+    "test": "test",
+    "test:watch": "jest --watch"
   },
   "author": "Germán Escobar",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "jest": "^29.3.1"
+  }
 }
