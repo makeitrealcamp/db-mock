@@ -84,7 +84,7 @@ This method doesn't return anything.
 For example, if a record was already inserted, we can delete it:
 
 ```js
-table.delete(1)
+table.remove(1)
 ```
 
 ## TODO
